@@ -1,0 +1,7 @@
+x=int(input("Escriba el primer numero: "))
+y=int(input("Escriba el segundo numero: "))
+z=int(input("Escriba el tercer numero: "))
+mayor= max(x,y,z)
+menor=min(x,y,z)
+print("El numero mayor es: ",mayor)
+print("El numero menor es: ",menor)
