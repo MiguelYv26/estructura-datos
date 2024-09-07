@@ -13,3 +13,12 @@ carro = Vehiculo ("Toyota", "corriente")
 print(carro)    
 print(type(carro))
 
+class Moto (Vehiculo):
+     def __init__(self, marca: str, combustible: str):
+          super().__init__(marca, combustible)
+class Carro (Vehiculo):
+     pass
+motociclista = Moto ("Honda", "corriente")
+mi_carro = Carro ("Mazda", "extra")
+print(motociclista)
+print(carro)
