@@ -1,0 +1,40 @@
+# Definición de la clase Pila
+Clase Pila
+    función inicializar()
+        items = lista vacía
+
+    función estaVacia()
+        retornar items está vacía
+
+    función apilar(elemento)
+        agregar elemento al final de items
+
+    función desapilar()
+        si no estaVacia() entonces
+            retornar y eliminar el último elemento de items
+        sino
+            mostrar error "La pila está vacía"
+
+    función cima()
+        si no estaVacia() entonces
+            retornar el último elemento de items sin eliminarlo
+        sino
+            mostrar error "La pila está vacía"
+
+    función tamaño()
+        retornar longitud de items
+
+# Uso de la Pila
+miPila = nueva instancia de Pila
+
+miPila.apilar(10)
+miPila.apilar(20)
+miPila.apilar(30)
+miPila.apilar(40)
+
+imprimir "Pila actual:", miPila.items
+imprimir "Elemento en la cima:", miPila.cima()
+imprimir "Elemento borrado:", miPila.desapilar()
+imprimir "Pila después de desapilar:", miPila.items
+imprimir "¿Se encuentra vacía la pila?", miPila.estaVacia()
+imprimir "El tamaño de la pila:", miPila.tamaño()
