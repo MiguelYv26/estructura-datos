@@ -17,6 +17,20 @@ class pilas:
     def size(self):
         return len(self.items)
     
+mi_pila = pilas()
+
+mi_pila.push(10)
+mi_pila.push(20)
+mi_pila.push(30)
+mi_pila.push(40)
+
+print("Pila actual:", mi_pila.items)
+print("Elemento en la cima:", mi_pila.top())
+print("Elemento borrado:", mi_pila.pop())
+print("Pila despues de pop:", mi_pila.items)
+print("¿Se encuentra vacia la pila?", mi_pila.isEmpty())
+print("El tamaño de la pila:", mi_pila.size)
+    
    
 
 
